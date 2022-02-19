@@ -26,7 +26,6 @@
     <string notr="true">QWidget#Shadow{
 background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 			rgba(85, 98, 112, 255), stop:1 rgba(255, 107, 107, 255));
 color: rgb(220, 220, 220);
-border-radius:10px;
 }</string>
    </property>
    <widget class="QLabel" name="swords">

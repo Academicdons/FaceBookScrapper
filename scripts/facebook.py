@@ -1,5 +1,4 @@
 from concurrent.futures import thread
-import imp
 from optparse import Values
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -21,7 +20,8 @@ from selenium.common.exceptions import (
 import pickle as pickle
 import multiprocessing
 from playsound import playsound
-from resources.mails.cache import cachedata
+from resources.mails.sendmail import *
+
 
 # Global variable
 linksCount = 0
