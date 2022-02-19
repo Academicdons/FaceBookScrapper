@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-radius:10px;</string>
+  </property>
+  <widget class="QWidget" name="shadow" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>605</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#shadow{
+background-color: rgb(56, 58, 89);
+color: rgb(220, 220, 220);
+border-radius:10px;
+}</string>
+   </property>
+   <widget class="QLabel" name="side_lbl">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>421</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel#side_lbl{
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 			rgba(85, 98, 112, 255), stop:1 rgba(255, 107, 107, 255));
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="form">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>921</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 255);
+border-radius: 10px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Tittle">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>30</y>
+      <width>221</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Yrsa Medium</family>
+      <pointsize>22</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Yegon Bot Pro+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="swords">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>10</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>51</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>⚔</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="swords_4">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>10</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>51</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>⚔</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="errorsField">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>90</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Z003</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font:12pt;
+color: Red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usernameField">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>124</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Ubuntu</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border:2px solid rgb(255, 255, 255);
+border-bottom-color:  rgba(46, 82, 101, 200);
+color: rgb(0, 0, 0);
+padding-bottom: 2px;</string>
+    </property>
+    <property name="placeholderText">
+     <string>Your Email OR Username</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordField">
+    <property name="geometry">
+     <rect>
+      <x>644</x>
+      <y>124</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border:2px solid rgb(255, 255, 255);
+border-bottom-color:  rgba(46, 82, 101, 200);
+color: rgb(0, 0, 0);
+padding-bottom: 2px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="threadsField">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>180</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border:2px solid rgb(255, 255, 255);
+border-bottom-color:  rgba(46, 82, 101, 200);
+color: rgb(0, 0, 0);
+padding-bottom: 2px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Threads Count</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="scrollsField">
+    <property name="geometry">
+     <rect>
+      <x>644</x>
+      <y>174</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+border:2px solid rgb(255, 255, 255);
+border-bottom-color:  rgba(46, 82, 101, 200);
+color: rgb(0, 0, 0);
+padding-bottom: 2px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Scroll Count</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="headlessField">
+    <property name="geometry">
+     <rect>
+      <x>474</x>
+      <y>114</y>
+      <width>101</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">padding-left:10px;</string>
+    </property>
+    <property name="text">
+     <string>Headless 
+  Mode</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login">
+    <property name="geometry">
+     <rect>
+      <x>414</x>
+      <y>244</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#login{
+	background-color: rgba(85, 98, 112, 255);
+	color: rgba(255, 255, 255, 200);
+	border-radius:5px;
+}
+QPushButton#login:pressed{
+	padding-left:5px;
+	padding-top: 5px;
+	background-color: rgba(255, 107, 107, 255);
+	background-position:calc(100% - 10px)center;
+}
+QPushButton#login:hover{
+	background-color: rgba(255, 107, 107, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="disclaimer">
+    <property name="geometry">
+     <rect>
+      <x>334</x>
+      <y>284</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Please Ensure your Logins Are Correct. Thread and Scroll Count Should Be INTEGERS</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="editArea">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>310</y>
+      <width>701</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+border-radius:10px;
+background-color: rgb(238, 238, 236);
+padding:  20px;
+padding-left: 20px;</string>
+    </property>
+    <property name="plainText">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

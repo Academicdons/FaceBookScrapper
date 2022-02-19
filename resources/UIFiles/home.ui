@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialogField</class>
+ <widget class="QDialog" name="dialogField">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="Shadow" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1024</width>
+     <height>605</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#Shadow{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 			rgba(85, 98, 112, 255), stop:1 rgba(255, 107, 107, 255));
+color: rgb(220, 220, 220);
+border-radius:10px;
+}</string>
+   </property>
+   <widget class="QLabel" name="swords">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>-50</y>
+      <width>331</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>86</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>⚔</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="editArea">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>731</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+border-radius:10px;
+background-color: rgb(238, 238, 236);
+padding:  20px;
+padding-left: 20px;</string>
+    </property>
+    <property name="plainText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>500</y>
+      <width>261</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#login{
+	background-color: rgba(85, 98, 112, 255);
+	color: rgba(255, 255, 255, 200);
+	border-radius:5px;
+}
+QPushButton#login:pressed{
+	padding-left:5px;
+	padding-top: 5px;
+	background-color: rgba(255, 107, 107, 255);
+	background-position:calc(100% - 10px)center;
+}
+QPushButton#login:hover{
+	background-color: rgba(255, 107, 107, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Start Bot</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
